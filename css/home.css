@@ -1,0 +1,60 @@
+.welcomeHome .titel {
+  text-align: center;
+  width: 40%;
+  margin: 15px auto;
+}
+.titel p {
+  margin: 15px 0px;
+}
+.welcomeHome .box {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.welcomeHome .product {
+  width: 250px;
+  margin: 0 10px 35px;
+}
+.welcomeHome .product h3 {
+  color: #26b082;
+  margin: 15px 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+.welcomeHome .product p {
+  margin: 15px 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+}
+.common {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.common .product {
+  position: relative;
+  width: 40%;
+  margin-left: 50px;
+}
+.common .product button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 7px 12px;
+  background: transparent;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.common .product button:hover {
+  background-color: #26b082;
+}
+.common .img img {
+  width: 500px;
+  height: 280px;
+}
+button a {
+bottom: 0;
+}
+.footer {
+  text-align: center;
+}

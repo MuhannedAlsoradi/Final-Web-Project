@@ -1,0 +1,63 @@
+.forms {
+  margin: 30px auto;
+  width: 80%;
+  display: flex;
+}
+.forms .form {
+  position: relative;
+  width: 50%;
+}
+.forms .form input {
+  display: block;
+  margin: 20px 0px;
+  border: 0px;
+  border-bottom: 1px solid grey;
+  padding: 8px;
+  width: 40%;
+}
+.forms .form input:focus {
+  border: 2px solid blue;
+  outline: none;
+  border-radius: 5px;
+}
+.forms .form textarea:focus {
+  border: 2px solid blue;
+  outline: none;
+  border-radius: 5px;
+}
+.forms .form textarea {
+  border: 0px;
+  border-bottom: 1px solid grey;
+  padding: 8px;
+}
+.forms .form input[type="submit"] {
+  background-color: red;
+  margin-left: 25%;
+  width: 20%;
+}
+.location h2 {
+  margin: 25px;
+}
+.location address {
+  margin: 25px;
+}
+.location h4 {
+  margin: 25px;
+}
+.questions {
+  margin: 10px auto;
+  width: 80%;
+}
+div .questions .question {
+  display: flex;
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 10px auto;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer {
+  text-align: center;
+  margin: 50px;
+}

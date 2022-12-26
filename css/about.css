@@ -1,0 +1,46 @@
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+.person {
+  width: 45%;
+  display: flex;
+}
+.person .box {
+  width: 50%;
+}
+.person img {
+  margin: 0 30px 50px 0;
+}
+.person p {
+  line-height: 1.3;
+  margin-top: 20px;
+}
+.person h2 {
+  margin-bottom: 10px;
+}
+.common {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 62px;
+}
+.common .img img {
+  width: 470px;
+  height: 280px;
+
+}
+.common .history {
+    margin: 0 20px;
+}
+.common .history p {
+    line-height: 1.4;
+    width: 75%;
+    margin-top: 20px;
+}
+.footer {
+margin: 0 auto;
+text-align: center;
+}
